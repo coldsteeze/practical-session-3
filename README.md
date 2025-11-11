@@ -20,4 +20,6 @@
 
 Команда для запуска:
 ```bash
-docker run -d -p 8080:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+git clone https://github.com/coldsteeze/practical-session-3
+cd practical-session-3
+docker-compose up
